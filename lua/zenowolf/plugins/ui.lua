@@ -47,6 +47,12 @@ return {
     end
     },
     {
+    "lewis6991/gitsigns.nvim",
+    config = function ()
+        require('gitsigns').setup()
+    end
+    },
+    {
     "feline-nvim/feline.nvim",
     config = function ()
         local fmt = string.format
